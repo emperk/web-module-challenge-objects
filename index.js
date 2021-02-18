@@ -15,9 +15,18 @@ The function should:
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
 
-function createMenuItem(/*Your code here*/){
-    // fdvsdfbdf
+
+function createMenuItem(name, price, category){
+  return {name, price, category};
 }
+
+console.log(createMenuItem('Personal Pizza', 7, 'Lunch&Dinner'));
+
+// function createPet3(name, species, wellBehaved){
+//   return {name, species, wellBehaved};
+// }
+
+// console.log(createPet3('Lola', 'dog', false));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
